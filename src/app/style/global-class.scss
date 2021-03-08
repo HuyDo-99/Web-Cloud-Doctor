@@ -1,0 +1,72 @@
+@import "../style/variables.scss";
+// class background gradient
+.bg-purple {
+    background-image: linear-gradient( #8FBEDC, #5C3F91);
+    color: var(--color-light);
+}
+
+.button-purple {
+    background-image: linear-gradient( to right, #5C3F91, #8FBEDC);
+}
+
+.button-getApp {
+    border-radius: 21px;
+    outline: none;
+    border: none;
+    color: var(--color-light);
+    font-size: 21px;
+    font-family: Quicksand;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(to right, #5C3F91, #8FBEDC);
+    height: 42px;
+    width: 240px;
+    box-shadow: 20px 21px 19px rgba($color: #000000, $alpha: 0.13);
+}
+
+.button-question {
+    border-radius: 21px;
+    outline: none;
+    border: none;
+    color: -webkit-linear-gradient(#5C3F91, #8FBEDC);
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--color-light);
+    height: 42px;
+    width: 240px;
+    box-shadow: 20px 21px 19px rgba($color: #000000, $alpha: 0.13);
+}
+
+.btn-t-gradient {
+    background: linear-gradient(to right, #5C3F91 0%, #8FBEDC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", sans-serif;
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #5C3F91 0%, #8FBEDC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+// .button-question {
+//     width: 240px;
+//     height: 42px;
+//     background-color: #ffffff;
+//     border-radius: 25px;
+//     position: absolute;
+//     left: 28%;
+//     border: none;
+//     font-weight: bold;
+//     margin-top: 1em;
+//     box-shadow: 20px 21px 19px rgba($color: #000000, $alpha: 0.13);
+// }
+@media screen and(max-width: 425px) {
+    .text-gradient {
+        -webkit-text-fill-color: #000000;
+    }
+}

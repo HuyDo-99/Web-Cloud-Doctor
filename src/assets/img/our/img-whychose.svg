@@ -1,0 +1,539 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="717" height="832" viewBox="0 0 717 832">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6f6f6"/>
+      <stop offset="1" stop-color="#ededed"/>
+    </linearGradient>
+    <filter id="Dark" x="0" y="35" width="619" height="287" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect width="250" height="141" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Border" width="85" height="35" rx="17.5" fill="none" stroke="#707070" stroke-width="5"/>
+    </clipPath>
+    <filter id="Dark-2" x="306" y="110" width="103" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.047" y1="0.167" x2="0.97" y2="0.857" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f0f0f0"/>
+      <stop offset="1" stop-color="#f5f5f5"/>
+    </linearGradient>
+    <filter id="Light" x="300" y="104" width="103" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Dark-3" x="496" y="110" width="103" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Light-2" x="490" y="104" width="103" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Dark-4" x="401" y="160" width="103" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Light-3" x="395" y="154" width="103" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Dark-5" x="496" y="160" width="103" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Light-4" x="490" y="154" width="103" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-9"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Dark-6" x="306" y="210" width="103" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-10"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Light-5" x="300" y="204" width="103" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-11"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Dark-7" x="401" y="210" width="103" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-12"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Light-6" x="395" y="204" width="103" height="53" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-13"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-8" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8fbedc"/>
+      <stop offset="0.495" stop-color="#7177b2"/>
+      <stop offset="1" stop-color="#5c3f91"/>
+    </linearGradient>
+    <filter id="Dark-8" x="6" y="522.683" width="411" height="280.634" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-14"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Light-7" x="0" y="516.683" width="411" height="280.634" filterUnits="userSpaceOnUse">
+      <feOffset dx="-3" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-15"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path-5">
+      <rect width="367.05" height="207.634" fill="none"/>
+    </clipPath>
+    <filter id="Light-8" x="48.5" y="624.683" width="101" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-16"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 60 60">
+      <image width="60" height="60" xlink:href="data:image/jpeg;base64,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"/>
+    </pattern>
+    <filter id="Rectangle_3498" x="56" y="631.683" width="36" height="36" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-17"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-17"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Light-9" x="138" y="698.683" width="156.423" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-18"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-18"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_3498-2" x="145.5" y="705.683" width="36" height="36" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-19"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-19"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_12PM" x="345" y="581.683" width="42" height="25" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-20"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-20"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_7" x="361" y="603.683" width="10" height="10" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-21"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-21"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_2670" x="362.5" y="605.683" width="7" height="189.634" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-22"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-22"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-10" x1="0" x2="1" xlink:href="#linear-gradient"/>
+    <pattern id="pattern-3" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 82 124">
+      <image width="82" height="124" xlink:href="data:image/jpeg;base64,/9j/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAB8AFIDASIAAhEBAxEB/8QAHAAAAQQDAQAAAAAAAAAAAAAAAAMFBgcBAgQI/8QAOxAAAgEDAgQEBQIDBQkAAAAAAQIDAAQRBSEGEjFBE1FhcQcUIjKBQpEjVKEVsdHh8RYXM1JykpTB8P/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDxpRRW8Kh3CsSPYZoHnhjQzq04MkgSFWw/mfLFTm10/hu0eONdHe6ePAk5+ZJFI6HGMEeo/wAqbNGu4Vs7e3jHhlVHQEE58sU9G2mlfn5Z3TzDEZHue34oFL204Y8G5UaJFGJU6BeVgcfp7A1GdV0PQp9P57ETW0kZCuj4LkAdfLv261Jg6xxN4x+WVftBIdCPUYz+aimt26uWltmIIPRclceh7ftQRnVtMewdB40c6uvMGjz086bz1qf6Va28nDd+THEkjR+GHkYA7nOxPT1qAuMOR1wcUGtFFA60G3L60UsAMUUCNdOlPHFqdtJN/wANZAW/BrlzW0J/ip/1CgsHRrTUdT1G4ewQJGZCEbyXPTyqX23DOtGIRqkYdtmkdmP/ALxS/wAFIhf6Y1quQwmZQemO9Wv/ALO3kcPMZoeUeeTQRLh/4Y2ckHPqWqF87mNScCnO84C0S3tLiS2QZCcq7d6klhpaAB7vVobeJfuORgfv3o1bV+Hjbizs9btpGxk8z45vbbFB5a4xvWsZ5tMhhiWJGZSpGT71Cj1qw/iBpLSccy2hPIsz8wkIyFU99vKq/uYnguJIJMc8bFWx5g4oE6yNyKxRQdGRRSGT50UGKypIII6isUUFn8P3+r6bwrLfaRLJGJ7ty6xoObHKpGPLfNbWPHnFkFwIrq4vZI3OAp3pPgHWoRZNZqOdRHHzBh0blw391TBNOsWRHUxI7kHmfZUUbk0Dd8Q7biS1t7QTRyTpdQiVeVzhQfOmngzhvU7+7Rri9CqGyFKZ/G9XDxbf8O3+m6fHYaxbtdRQBVjm6TMMYRfU70wXSpb2zz28Py8q7OpyCD5UDfxDYwPxrpdx4yxGGxm8UkcwcIMkEd8jIFefLuZri6lnb7pHLn8nNWTxpxNeafqSzWcoFykLxMxGRhxg7e1VketBiiiigKKKKAooooHrgzUbbTeILWe9R5LQSDx0RsFk7gGvSlzwvo/FvCs2o8DXUYLxlGs55eZX2+0Od0Pv/SvPHw31FNG4ji1G505Ly1CmOUOoPKrYywztn/Grg/sqXTbl+IeAJfmLG5w93p0TfRKoPVB2YeVBW8Fs2ha88d1BdwXdpJjwnhYvGf7vYjY1IJOLbvULv5SKC4nupiEiRx9TvnbarVex0/4maOkfM2nazbJi3nkQgjH6JR1K5/I7VAuAOFNZtPiXeRa1atFd6XECFIyrM5wrKehBGcEUEI+InCnEFndXUt0tvcvAqyTi0mE3hKevNjoVOAfLNQA9a9AaDqlvpfEOq6rcHw7aN5Xk5jnbO49c9KrDVJbDV9RvNQl0+CBrqZnjiiHIEBPQY22FBDqxUil0GCVj8vdhD3Rt8H3riutC1GFsJF4w84zn+lA15orr/szUf5Kf/sNFBvYaXNdKJGYQxH9Td/YU7QWNhbLzLH47j9UnT9q2NwrAeXQAUjLIyElPqFArcys6EDC+gq5vgzpF3Jb2d7BqcljNDArNBOQY5k3Ksp7H/Q1SDTxyd+U+RNWHwDxVIugR6POSwtZcofJD0wfQ5270F9S6/banbct1YJDcRHDFV5Xz55FLRcQW9pbRx3bLNE/2yMPqAPUfvVfWOrSSBYxIsgOynuPQ12alIl3bmEqWx0GcZ/0oKI4t1aS61S8sISRax3chY95DznFcdtBLsXBjzsD5DyHrXTxRbiy4t1GLlI5bhyD7nO3+NIxPgeIQTtt2oHK2WGABVVeb3zgUut1gmONQTjJZjsB/9/dTWrPu7OF7n0FIQP42VJOGIeUny7LQPPz9n/MXbeqq2D7elFNhnQEgyQD0Mm4ooGRHbBBOCN6WEg5cEZFcUT5O56il0Ocb0GZVU9B+1KaXdz6ddieMkr0dc/cvlSZII2JpNsdc0FlcP6sJYQ8cqtn7CD/Q+R9KlFrrMysfHLcgAJPL9S9ckegqi4Lme2lEkDtGw7g9ferB1wXWucK6bNa/MX0eXaeGPPORnC5C5zynIOAcHfvQdvxSt7Sc2t9pwEzJGvzEyqRu24BBAyV6Fhtv12qErzc31LjBwAaluiW1/Z8NXUGq2kkC6hcr8pbTghgn62wcEKdu2+KYeMbR9M1iSLl5YmGYj25e2PbpQNt9N/C5QfvOPYdTXJBI7YUEhc8zHOKTuZGlkCg525R+a6Vt2AAJ2B+0Db/M0CwkhwPq/aKikuQDYzoD3BYUUDMDiQN2NdMZz0rkJwfTNLRt6/ig6D71oxz3oLDHate9Bq2OY1IOEtVu7ITW1tN4Yk3Bx9aHuUbqhIAyR1AqPE796Uspvl7qOUfpbf2oLM0i2lvpjNcXMlzMw++aQsT5DJpbizSbi907wGjDSRDmibuD3Hsa04ekEqp9S4O6nPnUnSP+D9cxDHoV3H5FBSNtGyzv4ilWQkEHqDXc/M2QOdRjGR1NTHjHhe6kB1LT4lYAgTcpxk/81cNnwFxRcwiVLVOQ7jmuFFBGPlD2SP8AcUVLf93XFH8tb/8AkiigraT3rZD3z2pRY1aMkjekV2z7UC5P0isA7Vq3Wtl3FAfijFZxt+Kwu6mgmvB96jWKNJuYTyN7VPdOuoyQqrzJjqe1VPwdI66k0YP0su4qwNOmk8FE5ti2KCUSYmj8FD9Lbsc9KX0nUF0l0glYyWbbdN0Pcj0ppidlDAHZVzg9Dv3rdp3kk+rH0g42oJ8tvDIodCWVhkENsRRVY+PcjYXdwo7AOcCig//Z"/>
+    </pattern>
+    <pattern id="pattern-4" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 62 62">
+      <image width="62" height="62" xlink:href="data:image/jpeg;base64,/9j/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAA+AD4DASIAAhEBAxEB/8QAHAAAAgMBAQEBAAAAAAAAAAAABgcEBQgDAgAB/8QANBAAAQMDAgMHAgQHAQAAAAAAAQIDBAAFEQYSEyExByJBUWFxgTKRFEJSwQgVIyRDkqGx/8QAGgEAAgIDAAAAAAAAAAAAAAAAAwUBBgACBP/EACERAAICAgICAwEAAAAAAAAAAAECAAMREgQhMUEFIlET/9oADAMBAAIRAxEAPwDP5xnBr0kIPgKrDdYY/wAn/Kj3C5oLG2MvcpfInyFZkSMEz1eLrw+IhjGAcbuuT5Ch5ciQ5lS31596t7VZpl4dKI6DtTyJxyFWkjRE9hABSS5t3EYoBsXOCYdaWK7AdQXjvyW1gocXn3zRLb5zimA86kraBAUtI5pPqPKpcawtsRlIlIU2+kZSop5E+IqC7tjpeIUQlScEg+II/Y1sG/JBTHmXBwfKqiZaE3CW64p7bsO0DGakWqTxmRk5KeXxXZhzHEPms0TMD4lOWYaVEOMhHqelRZiWW5LYbSkp255eNdW5G+N+HWAhwfQfy+3pn7e1ftitj11mNJaG3+4Q04PLJ60JnwO4Za8t9Y6eyHT8OG0lFylRWXHsHC17duRyHvTwV2d267WkCPIQmQBniJWO9/6PSgHT7mqrfbzbbZp213GMNqimb0eyeZHLlgZOT16UztGNLhS2o64SLclxlSiyyslAI8U55gHypOTk7n3LCo1XQeoqNX9lN3xwpN1tjLCPodU+lDpHgnB5fOT80ktT6E1Za2ny/AcdisFalSWlBbZSBnduHzWrtV2y9x7gmXaLBaLi8taQt64ArPDPUp5YGPLxqFdbdc7rYZovNriwnVtLayxjatOCAfPHoelETkFBmBt4y29TG0CW1CQQ5u72CMCpIvMYfS06r4ol1zotFj0BY706y41Jlu7HFFzIUCFqThOOXJA+59KAUgDoaaV2BxkRLbSazhp0ccCgOmaKezSWhN7fYWtCVuNodb3D6i2rcR77c/ag5/keXnXeFLeiSmHmXFJCXEqVjxAOcVFi7qRMqc1uGE352dSosy0sE7MbAc/FRBqCynWc1qTdY7C2GVbW1q7yQOpxQN2dXFTFoBiPFzc0FISD9Q9KtLDqpFxnPLOlZD6mVY3PFpJCh5ZPxSNck4lqVNuxGhpS5xLjbuMzIaksk5bcQcpNVGt3+JHENgDiPrDafcnFQ9P6leujqoyLBLgIbJ3qWE7En0IPP7UHdsd2Yj2kww8lUmSvhtJycnxOMc+gNQ7EfWaFNScxNfxVXyG9qS26Wt4SmNZo+1xKenEUBge4SB/tSVz5U9dcQ9K2jTTUq8KeU5KH9BpKApaz1PU/ckiklcPwapClQQ8GTzAcAyPsaZ8K3dMa4xEvyFOtmxYEn1+ThMBCe8CCTXNZSG0gdTXzxUpIySRnpXlQ7o9q7YvjW7FtfG2uJtFzUrhNg8B39I/Sa0fpi22i6L/mbF0WwXRlS2VgbvesfaSt4blsTisKITvKCORSTgj36039O2B12Zsj3aZDbP5WVkfvSnlqK32HuP8A4612TBPiPPUF0tmnLWY0aUH33eTaEHKlk+1IPt+euVnkaYvbiFrcbedW4fAZCMI9MjcKbGkdPQLcpLid77x6vPK3r+M9Pir672iDdYyos+M1JYWCFodSFBXxS9LwlgYjInZdSbKyAe5kftOvkO+KtMmJJDoEZRU3nvNEqHdUPA8qDUqFG/brpS2aQ10bbaOImK7GRIDa1Z4ZUpQKQfLu8s+dAyE92rBx9f5jXxK1ydjad/M//9k="/>
+    </pattern>
+    <pattern id="pattern-5" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 62 62">
+      <image width="62" height="62" xlink:href="data:image/jpeg;base64,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"/>
+    </pattern>
+    <pattern id="pattern-7" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 24 24">
+      <image width="24" height="24" xlink:href="data:image/jpeg;base64,/9j/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAYABgDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAYHAwUI/8QAJxAAAQMDAgUFAQAAAAAAAAAAAQIDBAAFEQYhBxITMWEUIjJBUlH/xAAVAQEBAAAAAAAAAAAAAAAAAAAFBv/EAB4RAAICAgMBAQAAAAAAAAAAAAECAAMEERIhMWGx/9oADAMBAAIRAxEAPwC1NY6kfY1SbJEWtsNjqOhoAuvrVjkbT+RuMnyO1Y3bfqXT0J65S7iiWyR1AjKiWj9pOfknz3FRz07j/Fa5S5sv0chxSgy8pvmQ0ltISnIyNiTnvvit7fFSDp5i3PawUZL7xzIMY9NbeDsE/jPn7qfZntdm5Ed9fI/TjqKwNbkhtuqrO7aG7jJuESE2oHmEh9KORQ2IySKVQsK46Jtdsk3DWGnY16lKuz8WG6GwoqZbx7yCcJGT2/ppS+O5asFvYRdXwsKjyWZxEYjp4gWd2JJYbuDsV1ZZIyVoSCCo+NxUN4iaiYi25Qt1oktXdltbqUqKTHQ4lJJXtufApSjLxwuOoxhuTTObo+rFykQk3Nlx9DTpWooc5SQr5Y22JNKUplcWsDQ/YG2Q5OzP/9k="/>
+    </pattern>
+    <pattern id="pattern-8" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 24 24">
+      <image width="24" height="24" xlink:href="data:image/jpeg;base64,/9j/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAYABgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAQFBgf/xAApEAABAwMDAwQCAwAAAAAAAAABAgMFAAQRBhIhBxNBCCIxYRQjFTJR/8QAFQEBAQAAAAAAAAAAAAAAAAAABQb/xAAhEQACAQMDBQAAAAAAAAAAAAABAgADBBEhIlEFEyQycf/aAAwDAQACEQMRAD8Aw/qKkp7qT1yd0NZPFFlF4ZZQchAVsCnHFDPJycD6FVOqvTtJxMP+bYzQuX0I3qbWztBOM+0jkV2bUGgk2/VWV1NYXSLW4k+yrc4AeEgBwJJPt3ADJ+uKppyMmnLG3tHNVktPPr/STlSvIWFZHtzxtzjzR9xct3CFbGIxa2aGkC65Jmv9JGspfU/TJ+yn3HHb+DvDYF1z+62wgFG4+SBkZ+TilSOgEF/AaUk17T3b6VdeW4VZLgCUoBPgfBpSiblBg9TYxXiR9W63gL2dstNxV0zKSLjjnc/HIW3bpShRIWscZOMAf781ldb30fbRTTLbxUbf93ZU2rugj4SVHjbnxn6pSiL44uNOI70w+Mfpknp31v0a7CWsPLOrgb+2BYcbuEEtFaSQSHAMcnnnGKUpTaeok9U1Ymf/2Q=="/>
+    </pattern>
+    <pattern id="pattern-9" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 24 24">
+      <image width="24" height="24" xlink:href="data:image/jpeg;base64,/9j/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAYABgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAUGBwME/8QAKhAAAQQBAwMDAwUAAAAAAAAAAQIDBAURAAYhBxIxEyJRCBZCIzJBcYH/xAAWAQEBAQAAAAAAAAAAAAAAAAAFBAP/xAAcEQACAwEBAQEAAAAAAAAAAAABAgADEQRhEyL/2gAMAwEAAhEDEQA/AMl203O3He1zEdJlSHwmNDiqUP0+w4SPHCQnJz8DW02HSW5pKp2zb3DBk2aEkiM5ABjLSRgoV+RHwf44ONUToBVN1/Vq0g2clqG7WVTva6kdyG3FqSCrHH4/15OtGvTCFNCgt7tWJbz7j6n3I7oZKMYTwD+3Pj3aMtsIOCLcnKrV6w2UPYXo7LifdMmjRdxbplyElIlBl6LIbWMnPkFCwB3DnHPGdNdtj08OyG7YltZyHNvs2amYjjLiQr13fSU4pKTzyEqOfnGmtfpkmXmXTILbljcbk69TtwMRwyqY8+9I9uEFtaMAHPlOezGpzqtuykp69ZYoZKJkNvKWVqT6Ac8d2fJGecaaanf9XAHyX1EpQSvs9f08dSIOyeim5b+0DEyYJ7bzMYtp7nn3UnCe4jhPt/wA6aaaSrqUgkwZ3Oz/2Q=="/>
+    </pattern>
+    <linearGradient id="linear-gradient-11" x1="1" y1="0.045" x2="0" xlink:href="#linear-gradient-8"/>
+  </defs>
+  <g id="Component_16_1" data-name="Component 16 – 1" transform="translate(12)">
+    <g id="Group_801" data-name="Group 801" transform="translate(0 47)">
+      <g id="Component_5_338" data-name="Component 5 – 338">
+        <g transform="matrix(1, 0, 0, 1, -12, -47)" filter="url(#Dark)">
+          <rect id="Dark-9" data-name="Dark" width="601" height="269" rx="15" transform="translate(12 47)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+      <text id="Old_problem" data-name="Old problem" transform="translate(40 35)" fill="#707070" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Old problem</tspan></text>
+      <g id="Repeat_Grid_15" data-name="Repeat Grid 15" transform="translate(25 69)" clip-path="url(#clip-path)">
+        <g transform="translate(-187 -277)">
+          <g id="Group_1970" data-name="Group 1970">
+            <rect id="Rectangle_2689" data-name="Rectangle 2689" width="250" height="35" rx="17.5" transform="translate(187 277)" fill="#ebebeb"/>
+            <text id="Diabetes" transform="translate(202 301)" fill="#333" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Diabetes</tspan></text>
+            <g id="_more_vert" data-name=" more_vert" transform="translate(-407 -3147)">
+              <rect id="Path" width="19" height="20" transform="translate(815 3432)" fill="rgba(0,0,0,0)"/>
+              <path id="Icon" d="M1.5,13A1.5,1.5,0,1,1,3,11.5,1.5,1.5,0,0,1,1.5,13Zm0-5A1.5,1.5,0,1,1,3,6.5,1.5,1.5,0,0,1,1.5,8Zm0-5A1.5,1.5,0,1,1,3,1.5,1.5,1.5,0,0,1,1.5,3Z" transform="translate(823 3436)" fill="#707070"/>
+            </g>
+          </g>
+          <g id="Group_1971" data-name="Group 1971" transform="translate(0 45)">
+            <rect id="Rectangle_2689-2" data-name="Rectangle 2689" width="250" height="35" rx="17.5" transform="translate(187 282)" fill="#ebebeb"/>
+            <text id="Measles" transform="translate(202 306)" fill="#333" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Measles</tspan></text>
+            <g id="_more_vert-2" data-name=" more_vert" transform="translate(-407 -3142)">
+              <rect id="Path-2" data-name="Path" width="19" height="20" transform="translate(815 3432)" fill="rgba(0,0,0,0)"/>
+              <path id="Icon-2" data-name="Icon" d="M1.5,13A1.5,1.5,0,1,1,3,11.5,1.5,1.5,0,0,1,1.5,13Zm0-5A1.5,1.5,0,1,1,3,6.5,1.5,1.5,0,0,1,1.5,8Zm0-5A1.5,1.5,0,1,1,3,1.5,1.5,1.5,0,0,1,1.5,3Z" transform="translate(823 3436)" fill="#707070"/>
+            </g>
+          </g>
+        </g>
+        <g transform="translate(-187 -177)">
+          <g id="Group_1970-2" data-name="Group 1970">
+            <rect id="Rectangle_2689-3" data-name="Rectangle 2689" width="250" height="35" rx="17.5" transform="translate(187 277)" fill="#ebebeb"/>
+            <text id="Cough" transform="translate(202 301)" fill="#333" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Cough</tspan></text>
+            <g id="_more_vert-3" data-name=" more_vert" transform="translate(-407 -3147)">
+              <rect id="Path-3" data-name="Path" width="19" height="20" transform="translate(815 3432)" fill="rgba(0,0,0,0)"/>
+              <path id="Icon-3" data-name="Icon" d="M1.5,13A1.5,1.5,0,1,1,3,11.5,1.5,1.5,0,0,1,1.5,13Zm0-5A1.5,1.5,0,1,1,3,6.5,1.5,1.5,0,0,1,1.5,8Zm0-5A1.5,1.5,0,1,1,3,1.5,1.5,1.5,0,0,1,1.5,3Z" transform="translate(823 3436)" fill="#707070"/>
+            </g>
+          </g>
+          <g id="Group_1971-2" data-name="Group 1971" transform="translate(0 45)">
+            <rect id="Rectangle_2689-4" data-name="Rectangle 2689" width="250" height="35" rx="17.5" transform="translate(187 282)" fill="#ebebeb"/>
+            <text id="Peumonia" transform="translate(202 306)" fill="#333" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Peumonia</tspan></text>
+            <g id="_more_vert-4" data-name=" more_vert" transform="translate(-407 -3142)">
+              <rect id="Path-4" data-name="Path" width="19" height="20" transform="translate(815 3432)" fill="rgba(0,0,0,0)"/>
+              <path id="Icon-4" data-name="Icon" d="M1.5,13A1.5,1.5,0,1,1,3,11.5,1.5,1.5,0,0,1,1.5,13Zm0-5A1.5,1.5,0,1,1,3,6.5,1.5,1.5,0,0,1,1.5,8Zm0-5A1.5,1.5,0,1,1,3,1.5,1.5,1.5,0,0,1,1.5,3Z" transform="translate(823 3436)" fill="#707070"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="Group_2495" data-name="Group 2495" transform="translate(300 69)">
+        <g id="Component_44_10" data-name="Component 44 – 10">
+          <g id="sample_1" data-name="sample 1" transform="translate(95)">
+            <g id="sample_1-2" data-name="sample 1" clip-path="url(#clip-path-2)">
+              <g id="Dark-10" data-name="Dark" transform="translate(-3.188 -4.2)" fill="none" stroke="#000" stroke-width="3" opacity="0.55">
+                <rect width="122.196" height="52.926" rx="13" stroke="none"/>
+                <rect x="1.5" y="1.5" width="119.196" height="49.926" rx="11.5" fill="none"/>
+              </g>
+              <g id="Light-10" data-name="Light" transform="translate(-16.836 -17.926)" fill="none" stroke="#fff" stroke-width="3">
+                <rect width="105.024" height="52.926" rx="24" stroke="none"/>
+                <rect x="1.5" y="1.5" width="102.024" height="49.926" rx="22.5" fill="none"/>
+              </g>
+            </g>
+          </g>
+          <g id="Component_33_271" data-name="Component 33 – 271">
+            <g id="Component_5_335" data-name="Component 5 – 335">
+              <g transform="matrix(1, 0, 0, 1, -312, -116)" filter="url(#Dark-2)">
+                <rect id="Dark-11" data-name="Dark" width="85" height="35" rx="17.5" transform="translate(312 116)" fill="#f6f6f6"/>
+              </g>
+              <g transform="matrix(1, 0, 0, 1, -312, -116)" filter="url(#Light)">
+                <rect id="Light-11" data-name="Light" width="85" height="35" rx="17.5" transform="translate(312 116)" fill="url(#linear-gradient-2)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Component_33_273" data-name="Component 33 – 273" transform="translate(190)">
+            <g id="Component_5_335-2" data-name="Component 5 – 335">
+              <g transform="matrix(1, 0, 0, 1, -502, -116)" filter="url(#Dark-3)">
+                <rect id="Dark-12" data-name="Dark" width="85" height="35" rx="17.5" transform="translate(502 116)" fill="#f6f6f6"/>
+              </g>
+              <g transform="matrix(1, 0, 0, 1, -502, -116)" filter="url(#Light-2)">
+                <rect id="Light-12" data-name="Light" width="85" height="35" rx="17.5" transform="translate(502 116)" fill="url(#linear-gradient-2)"/>
+              </g>
+            </g>
+          </g>
+          <text id="Solved" transform="translate(21 23)" fill="#b3b3b3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Solved</tspan></text>
+          <text id="Follow_up" data-name="Follow up" transform="translate(138 23)" fill="#1c8dce" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-32.266" y="0">Follow up</tspan></text>
+          <text id="Skip" transform="translate(219 23)" fill="#b3b3b3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Skip</tspan></text>
+        </g>
+        <g id="Component_44_11" data-name="Component 44 – 11" transform="translate(0 50)">
+          <g id="sample_1-3" data-name="sample 1">
+            <g id="sample_1-4" data-name="sample 1" clip-path="url(#clip-path-2)">
+              <g id="Dark-13" data-name="Dark" transform="translate(-3.188 -4.2)" fill="none" stroke="#000" stroke-width="3" opacity="0.55">
+                <rect width="122.196" height="52.926" rx="13" stroke="none"/>
+                <rect x="1.5" y="1.5" width="119.196" height="49.926" rx="11.5" fill="none"/>
+              </g>
+              <g id="Light-13" data-name="Light" transform="translate(-16.836 -17.926)" fill="none" stroke="#fff" stroke-width="3">
+                <rect width="105.024" height="52.926" rx="24" stroke="none"/>
+                <rect x="1.5" y="1.5" width="102.024" height="49.926" rx="22.5" fill="none"/>
+              </g>
+            </g>
+          </g>
+          <g id="Component_33_272" data-name="Component 33 – 272" transform="translate(95)">
+            <g id="Component_5_335-3" data-name="Component 5 – 335">
+              <g transform="matrix(1, 0, 0, 1, -407, -166)" filter="url(#Dark-4)">
+                <rect id="Dark-14" data-name="Dark" width="85" height="35" rx="17.5" transform="translate(407 166)" fill="#f6f6f6"/>
+              </g>
+              <g transform="matrix(1, 0, 0, 1, -407, -166)" filter="url(#Light-3)">
+                <rect id="Light-14" data-name="Light" width="85" height="35" rx="17.5" transform="translate(407 166)" fill="url(#linear-gradient-2)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Component_33_273-2" data-name="Component 33 – 273" transform="translate(190)">
+            <g id="Component_5_335-4" data-name="Component 5 – 335">
+              <g transform="matrix(1, 0, 0, 1, -502, -166)" filter="url(#Dark-5)">
+                <rect id="Dark-15" data-name="Dark" width="85" height="35" rx="17.5" transform="translate(502 166)" fill="#f6f6f6"/>
+              </g>
+              <g transform="matrix(1, 0, 0, 1, -502, -166)" filter="url(#Light-4)">
+                <rect id="Light-15" data-name="Light" width="85" height="35" rx="17.5" transform="translate(502 166)" fill="url(#linear-gradient-2)"/>
+              </g>
+            </g>
+          </g>
+          <text id="Solved-2" data-name="Solved" transform="translate(43 23)" fill="#1c8dce" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-22.039" y="0">Solved</tspan></text>
+          <text id="Follow_up-2" data-name="Follow up" transform="translate(107 23)" fill="#b3b3b3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Follow up</tspan></text>
+          <text id="Skip-2" data-name="Skip" transform="translate(219 23)" fill="#b3b3b3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Skip</tspan></text>
+        </g>
+        <g id="Component_44_12" data-name="Component 44 – 12" transform="translate(0 100)">
+          <g id="sample_1-5" data-name="sample 1" transform="translate(190)">
+            <g id="sample_1-6" data-name="sample 1" clip-path="url(#clip-path-2)">
+              <g id="Dark-16" data-name="Dark" transform="translate(-3.188 -4.2)" fill="none" stroke="#000" stroke-width="3" opacity="0.55">
+                <rect width="122.196" height="52.926" rx="13" stroke="none"/>
+                <rect x="1.5" y="1.5" width="119.196" height="49.926" rx="11.5" fill="none"/>
+              </g>
+              <g id="Light-16" data-name="Light" transform="translate(-16.836 -17.926)" fill="none" stroke="#fff" stroke-width="3">
+                <rect width="105.024" height="52.926" rx="24" stroke="none"/>
+                <rect x="1.5" y="1.5" width="102.024" height="49.926" rx="22.5" fill="none"/>
+              </g>
+            </g>
+          </g>
+          <g id="Component_33_271-2" data-name="Component 33 – 271">
+            <g id="Component_5_335-5" data-name="Component 5 – 335">
+              <g transform="matrix(1, 0, 0, 1, -312, -216)" filter="url(#Dark-6)">
+                <rect id="Dark-17" data-name="Dark" width="85" height="35" rx="17.5" transform="translate(312 216)" fill="#f6f6f6"/>
+              </g>
+              <g transform="matrix(1, 0, 0, 1, -312, -216)" filter="url(#Light-5)">
+                <rect id="Light-17" data-name="Light" width="85" height="35" rx="17.5" transform="translate(312 216)" fill="url(#linear-gradient-2)"/>
+              </g>
+            </g>
+          </g>
+          <g id="Component_33_272-2" data-name="Component 33 – 272" transform="translate(95)">
+            <g id="Component_5_335-6" data-name="Component 5 – 335">
+              <g transform="matrix(1, 0, 0, 1, -407, -216)" filter="url(#Dark-7)">
+                <rect id="Dark-18" data-name="Dark" width="85" height="35" rx="17.5" transform="translate(407 216)" fill="#f6f6f6"/>
+              </g>
+              <g transform="matrix(1, 0, 0, 1, -407, -216)" filter="url(#Light-6)">
+                <rect id="Light-18" data-name="Light" width="85" height="35" rx="17.5" transform="translate(407 216)" fill="url(#linear-gradient-2)"/>
+              </g>
+            </g>
+          </g>
+          <text id="Solved-3" data-name="Solved" transform="translate(21 23)" fill="#b3b3b3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Solved</tspan></text>
+          <text id="Follow_up-3" data-name="Follow up" transform="translate(107 23)" fill="#b3b3b3" font-size="14" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Follow up</tspan></text>
+          <text id="Skip-3" data-name="Skip" transform="translate(233 24)" fill="#0080c9" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-14.167" y="0">Skip</tspan></text>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_2758" data-name="Rectangle 2758" width="94" height="94" rx="18" transform="translate(554)" fill="url(#linear-gradient-8)"/>
+    <g id="Group_4829" data-name="Group 4829" transform="translate(-1490 -4753.317)">
+      <g id="Group_758" data-name="Group 758" transform="translate(1255 4920)">
+        <g id="Component_5_515" data-name="Component 5 – 515" transform="translate(235 362)">
+          <g transform="matrix(1, 0, 0, 1, -12, -528.68)" filter="url(#Dark-8)">
+            <rect id="Dark-19" data-name="Dark" width="393" height="262.634" rx="18" transform="translate(12 528.68)" fill="#fff"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -12, -528.68)" filter="url(#Light-7)">
+            <rect id="Light-19" data-name="Light" width="393" height="262.634" rx="18" transform="translate(12 528.68)" fill="url(#linear-gradient)"/>
+          </g>
+        </g>
+        <g id="Group_985" data-name="Group 985" transform="translate(255 382)">
+          <g id="Group_740" data-name="Group 740">
+            <text id="Today" fill="#707070" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="17">Today</tspan></text>
+          </g>
+          <text id="_18_02_2020" data-name="18/02/2020" transform="translate(64)" fill="#707070" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">18/02/2020</tspan></text>
+        </g>
+      </g>
+      <g id="Repeat_Grid_12" data-name="Repeat Grid 12" transform="translate(1516 5337)" clip-path="url(#clip-path-5)">
+        <g id="Group_1004" data-name="Group 1004" transform="translate(-428 -563)">
+          <text id="_8AM" data-name="8AM" transform="translate(443 578)" fill="#9f9f9f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-14.574" y="0">8AM</tspan></text>
+          <g id="Group_993" data-name="Group 993" transform="translate(441 585)">
+            <circle id="Ellipse_7-2" data-name="Ellipse 7" cx="2" cy="2" r="2" fill="#9f9f9f"/>
+            <path id="Path_2670-2" data-name="Path 2670" d="M442,2433v251.33" transform="translate(-440 -2431)" fill="none" stroke="#9f9f9f" stroke-width="0.1"/>
+          </g>
+          <path id="Path_2671" data-name="Path 2671" d="M442,2433v271.33" transform="translate(41 -1866)" fill="none" stroke="#9f9f9f" stroke-width="0.1"/>
+        </g>
+        <g id="Group_1004-2" data-name="Group 1004" transform="translate(-350 -563)">
+          <text id="_9AM" data-name="9AM" transform="translate(443 578)" fill="#9f9f9f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-14.574" y="0">9AM</tspan></text>
+          <g id="Group_993-2" data-name="Group 993" transform="translate(441 585)">
+            <circle id="Ellipse_7-3" data-name="Ellipse 7" cx="2" cy="2" r="2" fill="#9f9f9f"/>
+            <path id="Path_2670-3" data-name="Path 2670" d="M442,2433v251.33" transform="translate(-440 -2431)" fill="none" stroke="#9f9f9f" stroke-width="0.1"/>
+          </g>
+          <path id="Path_2671-2" data-name="Path 2671" d="M442,2433v271.33" transform="translate(41 -1866)" fill="none" stroke="#9f9f9f" stroke-width="0.1"/>
+        </g>
+        <g id="Group_1004-3" data-name="Group 1004" transform="translate(-272 -563)">
+          <text id="_10AM" data-name="10AM" transform="translate(443 578)" fill="#9f9f9f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-18.348" y="0">10AM</tspan></text>
+          <g id="Group_993-3" data-name="Group 993" transform="translate(441 585)">
+            <circle id="Ellipse_7-4" data-name="Ellipse 7" cx="2" cy="2" r="2" fill="#9f9f9f"/>
+            <path id="Path_2670-4" data-name="Path 2670" d="M442,2433v251.33" transform="translate(-440 -2431)" fill="none" stroke="#9f9f9f" stroke-width="0.1"/>
+          </g>
+          <path id="Path_2671-3" data-name="Path 2671" d="M442,2433v271.33" transform="translate(41 -1866)" fill="none" stroke="#9f9f9f" stroke-width="0.1"/>
+        </g>
+        <g id="Group_1004-4" data-name="Group 1004" transform="translate(-194 -563)">
+          <text id="_11AM" data-name="11AM" transform="translate(443 578)" fill="#9f9f9f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-18.348" y="0">11AM</tspan></text>
+          <g id="Group_993-4" data-name="Group 993" transform="translate(441 585)">
+            <circle id="Ellipse_7-5" data-name="Ellipse 7" cx="2" cy="2" r="2" fill="#9f9f9f"/>
+            <path id="Path_2670-5" data-name="Path 2670" d="M442,2433v251.33" transform="translate(-440 -2431)" fill="none" stroke="#9f9f9f" stroke-width="0.1"/>
+          </g>
+          <path id="Path_2671-4" data-name="Path 2671" d="M442,2433v271.33" transform="translate(41 -1866)" fill="none" stroke="#9f9f9f" stroke-width="0.1"/>
+        </g>
+        <g id="Group_1004-5" data-name="Group 1004" transform="translate(-116 -563)">
+          <text id="_12PM-2" data-name="12PM" transform="translate(443 578)" fill="#9f9f9f" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-17.753" y="0">12PM</tspan></text>
+          <g id="Group_993-5" data-name="Group 993" transform="translate(441 585)">
+            <circle id="Ellipse_7-6" data-name="Ellipse 7" cx="2" cy="2" r="2" fill="#9f9f9f"/>
+            <path id="Path_2670-6" data-name="Path 2670" d="M442,2433v251.33" transform="translate(-440 -2431)" fill="none" stroke="#9f9f9f" stroke-width="0.1"/>
+          </g>
+          <path id="Path_2671-5" data-name="Path 2671" d="M442,2433v271.33" transform="translate(41 -1866)" fill="none" stroke="#9f9f9f" stroke-width="0.1"/>
+        </g>
+      </g>
+      <g id="Component_49_5" data-name="Component 49 – 5" transform="translate(1530.5 5382)">
+        <g id="Component_5_514" data-name="Component 5 – 514">
+          <rect id="Dark-20" data-name="Dark" width="89" height="40" rx="18" fill="#fff"/>
+          <g transform="matrix(1, 0, 0, 1, -52.5, -628.68)" filter="url(#Light-8)">
+            <rect id="Light-20" data-name="Light" width="89" height="40" rx="18" transform="translate(52.5 628.68)" fill="#e6d6b6"/>
+          </g>
+        </g>
+        <text id="Meeting_Lawlor" data-name="Meeting Lawlor" transform="translate(6 60)" fill="#707070" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Meeting Lawlor</tspan></text>
+        <g transform="matrix(1, 0, 0, 1, -52.5, -628.68)" filter="url(#Rectangle_3498)">
+          <rect id="Rectangle_3498-3" data-name="Rectangle 3498" width="30" height="30" rx="15" transform="translate(58 633.68)" fill="url(#pattern)"/>
+        </g>
+      </g>
+      <g id="Group_2430" data-name="Group 2430" transform="translate(728.443 5217)">
+        <g id="Component_5_546" data-name="Component 5 – 546" transform="translate(891.557 239)">
+          <rect id="Dark-21" data-name="Dark" width="144.423" height="40" rx="18" fill="#bcd6bf"/>
+          <g transform="matrix(1, 0, 0, 1, -142, -702.68)" filter="url(#Light-9)">
+            <rect id="Light-21" data-name="Light" width="144.423" height="40" rx="18" transform="translate(142 702.68)" fill="#bcd6bf"/>
+          </g>
+        </g>
+        <text id="Meeting_Lawlor-2" data-name="Meeting Lawlor" transform="translate(897.057 301)" fill="#707070" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Meeting Lawlor</tspan></text>
+        <g transform="matrix(1, 0, 0, 1, 749.56, -463.68)" filter="url(#Rectangle_3498-2)">
+          <rect id="Rectangle_3498-4" data-name="Rectangle 3498" width="30" height="30" rx="15" transform="translate(147.5 707.68)" fill="url(#pattern)"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 1478, 4753.32)" filter="url(#_12PM)">
+        <text id="_12PM-3" data-name="12PM" transform="translate(365 598.68)" fill="#9fb9c8" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-17.753" y="0">12PM</tspan></text>
+      </g>
+      <g id="Group_2449" data-name="Group 2449" transform="translate(1841 5359)">
+        <g transform="matrix(1, 0, 0, 1, -363, -605.68)" filter="url(#Ellipse_7)">
+          <circle id="Ellipse_7-7" data-name="Ellipse 7" cx="2" cy="2" r="2" transform="translate(363 605.68)" fill="#9fb9c8"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -363, -605.68)" filter="url(#Path_2670)">
+          <path id="Path_2670-7" data-name="Path 2670" d="M442,2433v183.634" transform="translate(-77 -1825.32)" fill="none" stroke="#9fb9c8" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Light-22" data-name="Light" width="387" height="396" rx="18" transform="translate(261 264)" opacity="0.1"/>
+    <g id="Group_4809" data-name="Group 4809" transform="translate(-112 110)">
+      <g id="Group_1177" data-name="Group 1177" transform="translate(408 103)">
+        <g id="Component_5_339" data-name="Component 5 – 339">
+          <g id="Light-23" data-name="Light" stroke="#fff" stroke-width="1" fill="url(#linear-gradient-10)">
+            <rect width="409" height="421" rx="18" stroke="none"/>
+            <rect x="0.5" y="0.5" width="408" height="420" rx="17.5" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_1179" data-name="Group 1179" transform="translate(422 176)">
+        <rect id="Rectangle_171" data-name="Rectangle 171" width="251" height="75" rx="15" transform="translate(42)" fill="#fff"/>
+        <text id="Tran_Van_Anh" data-name="Tran Van Anh" transform="translate(55 17)" fill="#9fb9c8" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Tran Van Anh</tspan></text>
+        <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(6 4)" stroke="#707070" stroke-width="1" fill="url(#pattern-3)">
+          <circle cx="15.5" cy="15.5" r="15.5" stroke="none"/>
+          <circle cx="15.5" cy="15.5" r="15" fill="none"/>
+        </g>
+        <text id="I_ve_just_recommended_Ms._Thu_to_you_please_contact_her_before_2PM_to_make_an_apointment." data-name="I&apos;ve just recommended Ms. Thu  to you, please  contact her before 2PM to make an apointment." transform="translate(55 23)" fill="#707070" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17" xml:space="preserve">I&apos;ve just recommended Ms. Thu  </tspan><tspan x="0" y="38" xml:space="preserve">to you, please  contact her </tspan></text>
+      </g>
+      <g id="Group_2089" data-name="Group 2089" transform="translate(422 266)">
+        <rect id="Rectangle_171-2" data-name="Rectangle 171" width="92" height="45" rx="15" transform="translate(42)" fill="#fff"/>
+        <text id="Tran_Thi_Lan" data-name="Tran Thi Lan" transform="translate(55 17)" fill="#9fb9c8" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Tran Thi Lan</tspan></text>
+        <g id="Ellipse_4-2" data-name="Ellipse 4" transform="translate(6 4)" stroke="#707070" stroke-width="1" fill="url(#pattern-4)">
+          <circle cx="15.5" cy="15.5" r="15.5" stroke="none"/>
+          <circle cx="15.5" cy="15.5" r="15" fill="none"/>
+        </g>
+        <text id="Okey" transform="translate(55 36)" fill="#707070" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Okey</tspan></text>
+      </g>
+      <rect id="Rectangle_2743" data-name="Rectangle 2743" width="369" height="38" rx="15" transform="translate(428 123)" fill="#fff"/>
+      <text id="Nguyen_Thi_Hoan_Anh" data-name="Nguyen Thi Hoan Anh" transform="translate(477 148)" fill="#707070" font-size="16" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">Nguyen Thi Hoan Anh</tspan></text>
+      <g id="Ellipse_4-3" data-name="Ellipse 4" transform="translate(439 127)" stroke="#707070" stroke-width="1" fill="url(#pattern-5)">
+        <circle cx="15.5" cy="15.5" r="15.5" stroke="none"/>
+        <circle cx="15.5" cy="15.5" r="15" fill="none"/>
+      </g>
+      <g id="Group_2090" data-name="Group 2090" transform="translate(422 326)">
+        <rect id="Rectangle_171-3" data-name="Rectangle 171" width="254" height="45" rx="15" transform="translate(42)" fill="#fff"/>
+        <text id="Thai_Thi_Pham" data-name="Thai Thi Pham" transform="translate(55 17)" fill="#9fb9c8" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Thai Thi Pham</tspan></text>
+        <g id="Ellipse_4-4" data-name="Ellipse 4" transform="translate(6 4)" stroke="#707070" stroke-width="1" fill="url(#pattern-4)">
+          <circle cx="15.5" cy="15.5" r="15.5" stroke="none"/>
+          <circle cx="15.5" cy="15.5" r="15" fill="none"/>
+        </g>
+        <text id="Text_me_in_case_u_need_more_info._" data-name="Text me in case u need more info. " transform="translate(55 36)" fill="#707070" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Text me in case u need more info. </tspan></text>
+      </g>
+      <g id="Group_2091" data-name="Group 2091" transform="translate(527.324 386)">
+        <g id="Group_2093" data-name="Group 2093">
+          <rect id="Rectangle_171-4" data-name="Rectangle 171" width="270" height="25" rx="12.5" transform="translate(-0.324)" fill="#9fb9c8"/>
+          <text id="She_doesn_t_have_much_time_to_talk" data-name="She  doesn&apos;t have much time to talk" transform="translate(260.676 19)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-252.852" y="0" xml:space="preserve">She  doesn&apos;t have much time to talk</tspan></text>
+        </g>
+      </g>
+      <rect id="Rectangle_2744" data-name="Rectangle 2744" width="369" height="38" rx="15" transform="translate(428 466)" fill="#707070" opacity="0.2"/>
+      <g id="Group_1102" data-name="Group 1102" transform="translate(768 475.283)">
+        <g id="_add_circle_outline" data-name=" add_circle_outline">
+          <rect id="Path-5" data-name="Path" width="20" height="20" transform="translate(0 -0.283)" fill="rgba(0,0,0,0)"/>
+          <path id="Icon-5" data-name="Icon" d="M10,20A10,10,0,1,1,20,10,10.011,10.011,0,0,1,10,20ZM10,2a8,8,0,1,0,8,8A8.01,8.01,0,0,0,10,2Zm0,13a1,1,0,0,1-1-1V11H6A1,1,0,1,1,6,9H9V6a1,1,0,1,1,2,0V9h3a1,1,0,1,1,0,2H11v3A1,1,0,0,1,10,15Z" transform="translate(0 -0.283)" fill="#4d4d4d" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+        </g>
+      </g>
+      <text id="Text" transform="translate(467 490)" fill="#707070" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="-20.965" y="0">Text</tspan></text>
+      <g id="Group_2092" data-name="Group 2092" transform="translate(755.324 128)">
+        <g id="Ellipse_36" data-name="Ellipse 36" transform="translate(-0.324)" stroke="#707070" stroke-width="1" fill="url(#pattern-7)">
+          <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+          <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+        </g>
+        <g id="Ellipse_37" data-name="Ellipse 37" transform="translate(12.676)" stroke="#707070" stroke-width="1" fill="url(#pattern-8)">
+          <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+          <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+        </g>
+        <g id="Ellipse_38" data-name="Ellipse 38" transform="translate(-0.324 13)" stroke="#707070" stroke-width="1" fill="url(#pattern-9)">
+          <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+          <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+        </g>
+        <g id="Ellipse_39" data-name="Ellipse 39" transform="translate(12.676 13)" fill="#fff" stroke="#707070" stroke-width="1">
+          <circle cx="7.5" cy="7.5" r="7.5" stroke="none"/>
+          <circle cx="7.5" cy="7.5" r="7" fill="none"/>
+        </g>
+        <text id="_4" data-name="4" transform="translate(16.676 24)" fill="#707070" font-size="12" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="0" y="0">4</tspan></text>
+      </g>
+    </g>
+    <rect id="Rectangle_2757" data-name="Rectangle 2757" width="92" height="92" rx="18" transform="translate(151 378)" fill="url(#linear-gradient-11)"/>
+    <rect id="Rectangle_3499" data-name="Rectangle 3499" width="75" height="75" rx="18" transform="translate(370 757)" fill="url(#linear-gradient-11)"/>
+  </g>
+</svg>

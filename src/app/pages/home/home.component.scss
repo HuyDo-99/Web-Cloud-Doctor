@@ -1,0 +1,99 @@
+.page {
+    background-color: var(--background-color);
+    padding-top: 100px;
+    .sticky {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
+.home-center {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .home-center-left {
+        width: 50%;
+        color: var(--color-light);
+        .home-center-left-header {
+            font-size: 50px;
+            font-family: Montserrat-SemiBold;
+        }
+        .home-center-left-text {
+            font-size: 20px;
+            margin: 16px 0px;
+            font-family: Quicksand;
+        }
+        .logo-desktop {
+            display: block;
+        }
+        .logo-mobile {
+            display: none;
+        }
+    }
+    .home-center-right {
+        width: 50%;
+        .home-center-right-img {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and(max-width: 1025px) {
+    .home-center {
+        .home-center-left {
+            .home-center-left-header {
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 769px) {
+    .home-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .home-center-left {
+            order: 2;
+            width: 100%;
+            height: 50vh;
+            padding: 3em;
+            .logo-desktop {
+                width: 30%;
+            }
+        }
+        .home-center-right {
+            order: 1;
+            width: 100%;
+            height: 50vh;
+            padding: 3em;
+        }
+    }
+}
+
+@media screen and(max-width: 425px) {
+    .home-center {
+        .home-center-left {
+            padding: 1em;
+            .home-center-left-header {
+                font-size: 26px;
+            }
+            .home-center-left-text {
+                font-size: 16px;
+            }
+        }
+        .home-center-right {
+            padding: 1em;
+        }
+    }
+    .button-getApp {
+        width: 137px;
+        height: 24px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,48 @@
+{
+  "HEADER":{
+    "Home":"Trang chủ",
+    "About Us":"Giới thiệu",
+    "Our Products":"Sản phẩm",
+    "Contacts":"Liên hệ"
+  },
+  "FOOTER":{
+    "EMR":"Hồ sơ điện tử",
+    "Tranfomrs":"đang chuyển đổi hệ thống chăm sóc sức khỏe"
+  },
+  "HOME": {
+      "TITLE": "CloudDoctor",
+      "Tranfomrs-home":"chuyển đổi việc chăm sóc sức khỏe",
+      "saving":"Tiết kiệm chi phí và thời gian của bạn",
+      "more":" hơn cả một ứng dụng",
+      "get":"Tải ứng dụng"
+    },
+    "ABOUT":{
+      "ton":"Câu chuyện của Ton, tầm nhìn của chúng tôi",
+      "everyday":"Mỗi ngày các bác sĩ trên khắp thế giới chỉ nắm bắt được một phần nhỏ dữ liệu họ nhìn thấy, nhưng chỉ một ít thông tin này được lưu trữ. Hãy tưởng tượng xem chúng ta có thể làm được bao nhiêu nếu chúng ta có thể giúp các bác sĩ dễ dàng nắm bắt dữ liệu đó khi họ đang nói chuyện với bệnh nhân, trên máy tính bảng và chuyển nó thành thông tin hữu ích. Họ có thể theo dõi khách hàng dễ dàng hơn, đảm bảo khách hàng quay lại tái khám và cung cấp dịch vụ chăm sóc tốt hơn. Chúng ta phải học cách sử dụng sức mạnh của công nghệ thông tin để cải thiện dịch vụ chăm sóc ở cấp cộng đồng! ",
+      "founded":"CloudDoctor, được thành lập bởi Tiến sĩ Ton van der Velden MD MPH, được xây dựng để giúp các bác sĩ ở các quốc gia có thu nhập trung bình nắm bắt và lưu trữ dữ liệu y tế mà họ thu thập từ khách hàng và chuyển đổi nó thành thông tin có thể giúp họ cung cấp dịch vụ chăm sóc tốt hơn. Ton đã làm việc ở các quốc gia có thu nhập trung bình trong 30 năm qua, giúp xây dựng hệ thống y tế vững mạnh, giảng dạy và tư vấn cho Bộ Y tế, các bệnh viện và phòng khám tư nhân nhỏ. Tầm nhìn của chúng tôi là đi đầu trong việc cung cấp các hệ thống EMR dễ sử dụng và cải thiện sức khỏe và phúc lợi của người dân ở các quốc gia có thu nhập thấp và trung bình.",
+      "Why-CloudDoctor":"Tại sao CloudDoctor được tạo ra?",
+      "Our-mission":"Nhiệm vụ của chúng tôi",
+      "Cloud Doctor is built":"Cloud Doctor được xây dựng dựa trên sự hiểu biết sâu sắc về ngành y tế Việt Nam và các nước đang phát triển nói chung. Chúng tôi nhận thấy rằng dịch vụ chăm sóc sức khỏe đang thay đổi và các nhu cầu cũng như kỳ vọng của cộng đồng, bệnh nhân và người chăm sóc của họ cũng vậy, tất cả đều đặt ra những thách thức mới về cách thức các dịch vụ được tài trợ, lập kế hoạch và cung cấp.",
+      "Therefore":"Vì vậy, chúng tôi đã ấp ủ tham vọng cải thiện và cách mạng hóa hệ thống y tế không chỉ ở Việt Nam mà còn ở các nước đang phát triển khác. Đó là lý do tại sao Cloud Doctor được thành lập, thực hiện sứ mệnh cung cấp các dịch vụ thông tin y tế tập trung vào khách hàng nhằm giúp các bác sĩ có thể chăm sóc bệnh nhân chất lượng cao.",
+      "Our values":"Giá trị của chúng tôi",
+      "Integrity":"Chính trực",
+      "Client focused":"Tập trung vào khách hàng",
+      "Innovation":"Đổi mới",
+      "System thinking":"Tư duy hệ thống",
+      "We act honestly":"Chúng tôi hành động trung thực, tôn trọng và có đạo đức trong công việc vì lợi ích của khách hàng",
+      "We partner":"Chúng tôi hợp tác và lắng nghe khách hàng là chuyên gia y tế của mình để cung cấp các dịch vụ thông tin y tế chất lượng cao. Chúng tôi cũng nhận ra rằng bệnh nhân là khách hàng. Chúng tôi cung cấp phần mềm lấy bệnh nhân làm trung tâm và đảm bảo bệnh nhân hài lòng về sự tham gia của chúng tôi với họ.",
+      "We are innovators":"Chúng tôi là những nhà đổi mới có tài năng, kỹ năng, kiến thức và kinh nghiệm để đảm bảo sự xuất sắc.",
+      "We understand":"Chúng tôi hiểu và làm việc trong phạm vi phức tạp của hệ thống chăm sóc sức khỏe để giảm thiểu sự kém hiệu quả và cải thiện sự phối hợp chăm sóc."
+  },
+  "OUR":{
+    "What is our product?":"Sản phẩm của chúng tôi là gì?",
+    "Replacing":"Thay thế hồ sơ y tế trên giấy truyền thống, CloudDoctor là một Hồ sơ y tế điện tử giúp bạn nắm bắt và lưu trữ tất cả thông tin y tế liên quan như lịch sử bệnh nhân, kết quả khám, chẩn đoán và kế hoạch của bạn. CloudDoctor bao gồm nhắn tin an toàn và hội nghị truyền hình. Tất cả điều này chỉ với một cú chạm ngón tay của bạn. Và sau đó CloudDoctor đưa ra các đề xuất chăm sóc để bạn cung cấp dịch vụ chăm sóc tốt hơn cho bệnh nhân của mình!",
+    "Why choose us?":"Tại sao chọn chúng tôi?",
+    "Applying":"Ứng dụng khoa học công nghệ tiên tiến, Cloud Doctor có khả năng lưu trữ lượng lớn dữ liệu ở mức độ bảo mật cao và liên kết các phòng khám, bệnh viện khác nhau trong hệ thống, qua đó có thể bảo quản và chuyển giao hồ sơ bệnh án giữa các cơ sở y tế. Hơn nữa, Cloud Doctor hỗ trợ bệnh nhân và gia đình của họ tự chăm sóc tại nhà bằng cách cung cấp lời khuyên và kiến thức về sức khỏe có thể truy cập trực tuyến."
+},
+"CONTACT":{
+  "contact-us":"Liên hệ với chúng tôi",
+  "question":"Câu hỏi của bạn"
+}
+}
+  

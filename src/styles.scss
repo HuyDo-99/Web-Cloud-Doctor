@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "app/style/variables.scss";
+@import "app/style/global-class.scss";
+@media screen and (min-width: 1320px) {
+    .container {
+        width: 1320px;
+    }
+}

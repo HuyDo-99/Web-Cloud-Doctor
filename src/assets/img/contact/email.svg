@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.26" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8fbedc"/>
+      <stop offset="0.495" stop-color="#7177b2"/>
+      <stop offset="1" stop-color="#5c3f91"/>
+    </linearGradient>
+  </defs>
+  <g id="_email" data-name=" email" transform="translate(-780 -1216.303)">
+    <rect id="Path" width="36" height="36" transform="translate(780 1216.303)" opacity="0" fill="url(#linear-gradient)"/>
+    <path id="Icon" d="M27,25H3a3.068,3.068,0,0,1-3-3.125L.015,3.125A3.061,3.061,0,0,1,3,0H27a3.068,3.068,0,0,1,3,3.125v18.75A3.068,3.068,0,0,1,27,25ZM4.273,4.189A1.3,1.3,0,0,0,3,5.515a1.352,1.352,0,0,0,.6,1.126L14.2,13.548a1.469,1.469,0,0,0,1.59,0L26.4,6.642A1.35,1.35,0,0,0,27,5.515a1.3,1.3,0,0,0-1.274-1.326,1.258,1.258,0,0,0-.677.2L15,10.938,4.949,4.392A1.255,1.255,0,0,0,4.273,4.189Z" transform="translate(783 1222.303)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

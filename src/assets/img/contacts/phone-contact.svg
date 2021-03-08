@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.946" height="26.946" viewBox="0 0 26.946 26.946">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.774" y1="-0.574" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8fbedc"/>
+      <stop offset="0.495" stop-color="#7177b2"/>
+      <stop offset="1" stop-color="#5c3f91"/>
+    </linearGradient>
+  </defs>
+  <path id="phone-contact" d="M197.972,1240.355v2.6a2.977,2.977,0,0,1-3.105,3,25.487,25.487,0,0,1-23.835-23.835,2.977,2.977,0,0,1,3-3.105h2.6a3,3,0,0,1,2.985,2.656l.435,3.78a2.988,2.988,0,0,1-.855,2.46l-2.775,2.775a22.57,22.57,0,0,0,9.885,9.885l2.76-2.76a2.986,2.986,0,0,1,2.46-.855l3.81.435A2.973,2.973,0,0,1,197.972,1240.355Z" transform="translate(-171.026 -1219.009)" fill="url(#linear-gradient)"/>
+</svg>

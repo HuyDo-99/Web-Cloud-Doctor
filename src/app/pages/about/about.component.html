@@ -1,0 +1,112 @@
+<div class="page">
+  <app-header class="sticky"></app-header>
+  <div class="container">
+    <!-- card 1 -->
+    <div class="section">
+      <div class="about-card">
+        <div class="about-card-content">
+          <img src="assets/img/icon-cloud.png " alt=" " />
+          <div class="about-card-content-header text-gradient">
+            {{ "ABOUT.ton" | translate }}
+          </div>
+          <div class="about-card-content-text" id="view1">
+            <span> {{ "ABOUT.everyday" | translate }}</span>
+            <br />
+            <span> {{ "ABOUT.founded" | translate }}</span>
+          </div>
+        </div>
+        <div class="about-card-img">
+          <img src="assets/img/about/image1.png " alt=" " />
+        </div>
+
+        <div class="view-more" (click)="btnExtended1()">
+          <span *ngIf="show1 == false">View-more</span>
+          <span *ngIf="show1 == true">Collapse</span>
+        </div>
+      </div>
+    </div>
+    <!-- card 2 -->
+    <div class="section">
+      <div class="about-card">
+        <div class="f-botton">
+          <img
+            class="about-card-img"
+            src="assets/img/about/image2.png "
+            alt=" "
+          />
+        </div>
+        <div class="about-card-content">
+          <div class="f-right">
+            <img src="assets/img/icon-cloud.png " alt=" " />
+          </div>
+          <div class="about-card-content-header text-gradient f-right">
+            {{ "ABOUT.Why-CloudDoctor" | translate }} <br />
+            {{ "ABOUT.Our-mission" | translate }}
+          </div>
+          <div class="about-card-content-text" id="view2">
+            <span> {{ "ABOUT.Cloud Doctor is built" | translate }}</span>
+            <br />
+            <span>
+              {{ "ABOUT.Therefore" | translate }}
+            </span>
+          </div>
+        </div>
+        <div class="view-more" (click)="btnExtended2()">
+          <span *ngIf="show2 == false">View-more</span>
+          <span *ngIf="show2 == true">Collapse</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- card 3 -->
+    <div class="section">
+      <div class="about-card">
+        <div class="about-card-content">
+          <img src="assets/img/icon-cloud.png " alt=" " />
+          <div class="about-card-content-header text-gradient">
+            {{ "ABOUT.Our values" | translate }}
+          </div>
+
+          <ul class="content-text-list" id="view3">
+            <li>
+              <span class="content-text-list-label">
+                {{ "ABOUT.Integrity" | translate }}:</span
+              >
+              We act
+              {{ "ABOUT.We act honestly" | translate }}
+            </li>
+            <li>
+              <span class="content-text-list-label">
+                {{ "ABOUT.Client focused" | translate }}:</span
+              >
+              We
+              {{ "ABOUT.We partner" | translate }}
+            </li>
+            <li>
+              <span class="content-text-list-label">
+                {{ "ABOUT.Innovation" | translate }}:</span
+              >
+              We are
+              {{ "ABOUT.We are innovators" | translate }}
+            </li>
+            <li>
+              <span class="content-text-list-label">
+                {{ "ABOUT.System thinking" | translate }}:</span
+              >
+              We
+              {{ "ABOUT.We understand" | translate }}
+            </li>
+          </ul>
+        </div>
+        <div class="about-card-img">
+          <img src="assets/img/about/image3.png " alt=" " />
+        </div>
+        <div class="view-more" (click)="btnExtended3()">
+          <span *ngIf="show3 == false">View-more</span>
+          <span *ngIf="show3 == true">Collapse</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
+</div>

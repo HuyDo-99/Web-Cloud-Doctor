@@ -1,0 +1,93 @@
+<div class="container">
+  <div class="page-navbar">
+    <div class="page-navbar-logo">
+      <img src="assets/img/logo.svg" alt="" />
+    </div>
+    <ul class="page-navbar-menu">
+      <li
+        class="page-navbar-menu-list"
+        routerLink="/home"
+        routerLinkActive="list-active"
+      >
+        {{ "HEADER.Home" | translate }}
+      </li>
+      <li
+        class="page-navbar-menu-list"
+        routerLink="/about"
+        routerLinkActive="list-active"
+      >
+        {{ "HEADER.About Us" | translate }}
+      </li>
+      <li
+        class="page-navbar-menu-list"
+        routerLink="/our"
+        routerLinkActive="list-active"
+      >
+        {{ "HEADER.Our Products" | translate }}
+      </li>
+      <li
+        class="page-navbar-menu-list"
+        routerLink="/contact"
+        routerLinkActive="list-active"
+      >
+        {{ "HEADER.Contacts" | translate }}
+      </li>
+    </ul>
+    <ul class="page-navbar-lang" (click)="changeLang()">
+      <li class="page-navbar-lang-item bg-purple" [class.bg-purple]="lang">
+        En
+      </li>
+      <li class="page-navbar-lang-item" [class.bg-purple]="!lang">Vi</li>
+    </ul>
+    <div class="page-navebar-btn" (click)="showMenu()">
+      <img src="assets/img/menu/menu.svg" alt="" />
+    </div>
+  </div>
+</div>
+
+<div class="menu-nav" [class.hide]="select == true">
+  <div class="menu-nav-header">
+    <div class="menu-nav-header-logo">
+      <img src="assets/img/logo.svg" alt="" />
+    </div>
+    <div class="menu-nav-header-btn" (click)="closeMenu()">
+      <img src="assets/img/cancel.svg" alt="" />
+    </div>
+  </div>
+  <div class="menu-nav-list">
+    <ul>
+      <li
+        class="menu-nav-list-item"
+        routerLink="/home"
+        (click)="closeMenu()"
+        routerLinkActive="menu-nav-active"
+      >
+        Home
+      </li>
+      <li
+        class="menu-nav-list-item"
+        routerLink="/about"
+        (click)="closeMenu()"
+        routerLinkActive="menu-nav-active"
+      >
+        About Us
+      </li>
+      <li
+        class="menu-nav-list-item"
+        routerLink="/our"
+        (click)="closeMenu()"
+        routerLinkActive="menu-nav-active"
+      >
+        Our Products
+      </li>
+      <li
+        class="menu-nav-list-item"
+        routerLink="/contact"
+        (click)="closeMenu()"
+        routerLinkActive="menu-nav-active"
+      >
+        Contacts
+      </li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,48 @@
+{
+  "HEADER":{
+    "Home":"Home",
+    "About Us":"About Us",
+    "Our Products":"Our Products",
+    "Contacts":"Contacts"
+  },
+  "FOOTER":{
+    "EMR":"Electronic Medical Records",
+    "Tranfomrs":"are transforming healthcare system"
+  },
+  "HOME": {
+      "TITLE": "CloudDoctor",
+      "Tranfomrs-home":"Transform healthcare",
+      "saving":"Saving your time, saving your money",
+      "more":" more than an app",
+      "get":"Get the app"
+  },
+  "ABOUT":{
+      "ton":"Ton's story, our vision",
+      "everyday":"Every day doctors all over the world capture only a small portion of the data they see, but only a little bit of this information is captured. Imagine how much we could do if we could make it easy for doctors to capture that data while they are talking with the patient, on a tablet and convert it into useful information. They could follow up with clients much more easily, make sure clients come back for follow up appointments and offer better care. We have to learn to use the power of information technology to improve care at the community level!",
+      "founded":"CloudDoctor, founded by Dr. Ton van der Velden MD MPH, was built to help doctors in middle income countries capture and store the medical data they collect from their clients and convert it into information that can help them provide better care. Ton has worked in middle income countries for the last 30 years, helping to build strong medical systems, teaching and advising Ministries of Health, hospitals and small private clinics. Our vision is to be a leader in providing easy-to-use EMR systems and improve the health and wellbeing of people in low and middle income countries.",
+      "Why-CloudDoctor":"Why CloudDoctor was found?",
+      "Our-mission":"Our mission",
+      "Cloud Doctor is built":"Cloud Doctor is built based on a deep understanding of the medical industry in Vietnam and other developing countries in general. We recognized that healthcare is changing and so are the demands and expectations of communities, patients, and their caregivers, all of which pose new challenges in terms of how services are funded, planned and delivered.",
+      "Therefore":"Therefore, we have a long-nurtured ambition to improve and revolutionize the medical system not just in Vietnam but also other developing countries. This is where Cloud Doctor was founded, carrying out a mission to provide client-focused health information services to enable doctors to provide high quality patient care.",
+      "Our values":"Our values",
+      "Integrity":"Integrity",
+      "Client focused":"Client focused",
+      "Innovation":"Innovation",
+      "System thinking":"System thinking",
+      "We act honestly":"We act honestly, respectfully, and ethically in our work for the well-being of our clients",
+      "We partner":"We partner with and listen to our medical professional clients to provide high quality health information services. We also recognize that patients are clients. We provide patient-centered software and ensure patients are satisfied about our engagement with them.",
+      "We are innovators":"We are innovators who have the talent, skills, knowledge and experience to ensure excellence",
+      "We understand":" We understand and work within the complexity of the healthcare system to reduce inefficiencies and improve care coordination."
+  },
+  "OUR":{
+      "What is our product?":"What is our product?",
+      "Replacing":"Replacing the traditional paper based medical record, CloudDoctor is an Electronic Medical Record that helps you capture and store all relevant medical information such as the patient’s history, the results of your examination, the diagnosis, and your plan. CloudDoctor includes secure messaging and video conferencing. All this with just a touch of your finger. And then CloudDoctor offers suggestions for care so that you provide better care for your patient!",
+      "Why choose us?":"Why choose us?",
+      "Applying":"Applying advanced science and technology, Cloud Doctor is capable of storing a great amount of data at the high level of security and linking different clinics and hospitals in the system, by which patient medical records can be preserved and transferred between medical establishments. Furthermore, Cloud Doctor supports patients and their family with their self care at home by providing health advice and knowledge that can be accessed online."
+  },
+  "CONTACT":{
+    "contact-us":"Contact us",
+    "question":"Your question"
+  }
+}
+  
